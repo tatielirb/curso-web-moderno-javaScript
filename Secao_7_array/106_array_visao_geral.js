@@ -1,4 +1,4 @@
-//104 array visão geral
+//array visão geral
 // array em js é um objeto, organizado os indices, é uma estrutura heterogenia, dinamico
 
 console.log(typeof Array, typeof new Array, typeof [])

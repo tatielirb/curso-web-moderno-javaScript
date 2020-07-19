@@ -1,4 +1,4 @@
-//105 array metodos importantes
+// array metodos importantes
 
 const pilotos = ['Vettel', 'Alonso', 'Raikkonen', 'Massa']
 
