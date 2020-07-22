@@ -1,4 +1,3 @@
-//video 28
 //var
 console.log('a =', a)
 var a = 2

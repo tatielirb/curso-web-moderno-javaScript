@@ -1,4 +1,3 @@
-//video 41
 //operador de atribuição
 
 const a = 7
@@ -17,5 +16,3 @@ console.log(b)
 
 b %= 2 //b = b % 2
 console.log(b)
-
-

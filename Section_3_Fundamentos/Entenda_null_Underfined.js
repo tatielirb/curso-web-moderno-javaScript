@@ -1,5 +1,3 @@
-//video 26
-
 const a = {name: 'teste'}
 const b = a
 

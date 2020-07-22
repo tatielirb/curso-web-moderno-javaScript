@@ -1,4 +1,3 @@
-//video 48
 /*
   v e v -> v
   v e f -> f

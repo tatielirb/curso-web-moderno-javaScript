@@ -1,7 +1,3 @@
-//video 51
-
-//console
-
 window //global
 this  //global
 this === window

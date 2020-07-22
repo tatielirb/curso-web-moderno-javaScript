@@ -1,4 +1,4 @@
-//video 51
+// Tratamento de Erro (TryCatchThrow)
 function tratarErroELancar(erro){
   // throw new erro('...')
   // throw 10
