@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Binding</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <script src="/js/vue.min.js"></script>
+</head>
+<body class="exercicio">
+    <div id="app">
+        <p>{{ link }}</p>
+        <p><a v-bind:href="link">Google</a></p>
+        <p><a :href="link">Google 2</a></p>
+        <p>
+            <input type="text" v-model="nome">
+            <span>{{ nome }}</span>
+        </p>
+    </div>
+
+    <script>
+       new Vue({
+         el: "#app", 
+         data: {
+            link: "http://google.com",
+            nome:"maria"
+         }, 
+         watch: {
+            nome(novoValor) {
+                console.log(novoValor.toUpperCase())
+            }
+         }
+       })
+    </script>
+</body>
+</html>
