@@ -13,15 +13,38 @@
 
 // , document.getElementById('root'));
 
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+
+// import Saudacao from './componentes/Saudacao';
+
+
+// ReactDOM.render(
+// <div>
+//   <Saudacao tipo="Bom dia" nome="joão" />
+// </div>
+
+// , document.getElementById('root'));
+
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Saudacao from './componentes/Saudacao';
+import Pai from './componentes/Pai';
+import Filho from './componentes/Filho'
 
 
 ReactDOM.render(
 <div>
-  <Saudacao tipo="Bom dia" nome="joão" />
+  <Pai nome="Paulo" sobrenome="Silva" >
+      {/* <Filho nome="pedro"/> */}
+      {/* <Filho nome="pedro" sobrenome="silva" />
+      <Filho nome="Paulo" sobrenome="Silva" />
+      <Filho nome="Carla" sobrenome="Silva" /> */}
+      <Filho nome="pedro" />
+      <Filho nome="Paulo" />
+      <Filho nome="Carla" />
+  </Pai>
 </div>
 
 , document.getElementById('root'));
